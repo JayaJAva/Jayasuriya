@@ -5,6 +5,8 @@ import java.util.Scanner;
 public class fresh {
 	public static void main(String[] args){
 		int N=0;
+		String s=String.valueOf(N);
+		String x[]={s,String.valueOf(N)};
 		Scanner jaya=new Scanner(System.in);
 		try{
 		 N=jaya.nextInt();
